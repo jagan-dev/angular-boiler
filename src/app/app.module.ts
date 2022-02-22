@@ -1,4 +1,4 @@
-import { NgModule } from '@angular/core';
+import { CUSTOM_ELEMENTS_SCHEMA, NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
@@ -12,7 +12,7 @@ import { DialogComponent } from './dialog/dialog.component';
 import {MatDialogModule} from '@angular/material/dialog';
 
 @NgModule({
-  declarations: [				
+  declarations: [
     AppComponent,
       HeaderComponent,
       FooterComponent,
@@ -26,6 +26,7 @@ import {MatDialogModule} from '@angular/material/dialog';
     BrowserAnimationsModule,
     MatDialogModule
   ],
+  schemas: [ CUSTOM_ELEMENTS_SCHEMA ],
   providers: [],
   bootstrap: [AppComponent]
 })
