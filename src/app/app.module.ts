@@ -21,7 +21,7 @@ import {MatDialogModule} from '@angular/material/dialog';
       MenuBarComponent,
       NavBarComponent,
       HomeComponent,
-      DialogComponet
+      DialogComponent
    ],
   imports: [
     BrowserModule,
