@@ -1,0 +1,36 @@
+
+.page-header{
+    margin: 1px;
+    background-color: black;
+    color: white;
+    height: 150px;
+    
+}
+   h5{
+       display:flex;
+       position: relative;
+       left: 10px;
+      letter-spacing: 25px;
+      font-size: x-large;
+   } 
+   p{
+       position: relative;
+       bottom: 5px;
+       left: 235px;
+   }
+img{
+    position: relative;
+    right: 0px;
+}
+.nav-link{
+/* align-items: flex-end; */
+   display: flex;
+   /* justify-content: flex-end; */
+    /* padding: 3.5rem 1rem;  */
+    color: white;
+position: relative;
+left: 40px;
+bottom:3px;
+font-size: smaller;
+
+}
