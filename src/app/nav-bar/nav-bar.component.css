@@ -1,0 +1,53 @@
+.col1{
+   position: relative;
+   right: 30px;
+  
+}
+.mail{
+    position: relative;
+    right: 20px;
+    padding: 10px;
+}
+.mail input{
+    position: relative;
+    left: 50px;
+    width: 230px;
+}
+.mail span{
+    color: red;
+}
+.pass{
+    position: relative;
+    right: 20px;
+    padding: 10px;
+}
+.pass input{
+    position: relative;
+    left: 24px;
+    width: 230px;
+}
+.pass span{
+    color: red;
+}
+.forget{
+ position: relative;
+ right: 10px;
+ color: rgb(13, 170, 170);
+ top: 20px;
+}
+.button1{
+    position: relative;
+    top: 60px;
+    left:180px
+}
+.button2{
+    position: relative;
+    top: 50px;
+    left:242px
+}
+.anchor{
+   position: relative;
+   margin-left: 2px;
+   color: rgb(70, 187, 187);
+   right: 30px; 
+}
