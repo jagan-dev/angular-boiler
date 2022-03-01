@@ -10,3 +10,15 @@
   background: yellow;
   height:50px;
 }
+
+.app-guest{
+  background-color: red;
+}
+.first-line{
+  display: flex;
+  text-align: center;
+}
+.second-line{
+   flex-basis: 50%;
+   
+}

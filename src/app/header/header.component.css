@@ -1,0 +1,33 @@
+.header{
+    background-color: black;
+    width: 1200px;
+    margin-left: -30px;
+}
+.header h3{
+    letter-spacing: 24px;
+   font-weight: bold;
+   color: white;
+   margin-left: 20px;
+}
+.para{
+    margin-left: 230px;
+    color: white;
+}
+.anchor{
+    margin-left: 170px;
+}
+.anchor a{
+    color: white;
+    padding-right: 30px;
+    
+}
+.log a{
+    background-color: aqua;
+    padding:5px 30px 5px;
+}
+.log{
+    position: relative;
+    left: 1075px;
+    bottom: 23px;
+    cursor: pointer;
+}
