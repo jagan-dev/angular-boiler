@@ -23,8 +23,6 @@ import { NavComponent } from './guest/nav/nav.component';
 import { ContentComponent } from './guest/content/content.component';
 
 
-
-
 @NgModule({
   declarations:[
     AppComponent,
