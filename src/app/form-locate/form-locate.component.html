@@ -1,0 +1,143 @@
+<div style="width: 34%; margin-left: 20px; margin-top: 20px;">
+    <div>
+        <h1 style="color: gray;">Locate A Member Distributor</h1>
+        <h4>Guests may buy and sell items on the NIE network with the assistance of member distributors.  If you do not know of a member distributor in your area, please fill out and submit the following communication form.  Our NIE team will provide you the contact information of an appropriate NIE distributor nearest to your location</h4>
+    </div>  
+    <div class="mat-button">
+        <button mat-raised-button color="primary" class="mat-raised-button">Cancel</button>
+        <button mat-raised-button color="primary" class="mat-raised-button">Sumbit</button>
+    </div>
+    <div class="content" [formGroup]="registerForm" novali>
+        <div class="text-center">
+            <div class="row">
+                <div class="col-lg-6 col-6" style="margin-top: 10px; width: 40%;">
+                    <span>FirstName and Last Name <span class="star">*</span></span>
+                </div>
+                <div class="col-lg-6 col-6" style="width: 60%;">
+                    <input type="text" formControlName="FirstName" class="form-control" placeholder="Enter the Frist and Last Name">
+                    <div class="text-danger"> 
+                    <small *ngIf="registerForm.get('FirstName').invalid && registerForm.get('FirstName').touched">First Name is Required</small>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 col-6" style="margin-top: 10px; width: 40%;">
+                    <span>Company Name <span class="star">*</span></span>
+                </div>
+                <div class="col-lg-6 col-6" style="width: 60%;">
+                    <input type="text" formControlName="CompanyName" class="form-control" placeholder="Enter the Company Name">
+                    <div class="text-danger">
+                        <small *ngIf="registerForm.get('CompanyName').invalid && registerForm.get('CompanyName').touched">Company Name is Required</small>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 col-6" style="margin-top: 10px; width: 40%;">
+                    <span>Address1 <span class="star">*</span></span>
+                </div>
+                <div class="col-lg-6 col-6" style="width: 60%;">
+                    <input type="text" formControlName="address" class="form-control" placeholder="Enter the Address1">
+                    <div class="text-danger">
+                        <small *ngIf="registerForm.get('address').invalid && registerForm.get('address').touched">
+                            Address in Required
+                        </small>
+                </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 col-6" style="margin-top: 10px; width: 40%;">
+                    <span>Address2</span>
+                </div>
+                <div class="col-lg-6 col-6" style="width: 60%;">
+                    <input type="text" class="form-control" placeholder="Enter the Address2">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 col-6" style="margin-top: 10px; width: 196px">
+                    <span>State <span class="star">*</span></span>
+                </div>
+                <select class="col-le-6 col-6" formControlName="State" style="width: 253px; font-size: 12px;" [value]="selected" required>
+                    <option value="" disabled selected hidden>Select the State</option>
+                    <option *ngFor="let food of foods" [value]="food">
+                      {{food}}
+                    </option>
+                        <div class="text-danger">
+                            <small *ngIf="registerForm.get('State').invalid && registerForm.get('State').touched"> State is Required</small>
+                        </div>
+               </select>
+           </div>
+           <div class="row">
+            <div class="col-lg-6 col-6" style="margin-top: 10px; width: 40%;">
+                <span>ZIP Code <span class="star">*</span></span>
+            </div>
+            <div class="col-lg-6 col-6" style="width: 60%;">
+                <input type="text" formControlName="ZIPcode" class="form-control" placeholder="Enter the ZIP Code">
+                <div class="text-danger">
+                    <small *ngIf="registerForm.get('ZIPcode').invalid && registerForm.get('ZIPcode').touched">ZIP code is Required</small>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-6 col-6" style="margin-top: 10px; width: 40%;">
+                <span>Email <span class="star">*</span></span>
+            </div>
+            <div class="col-lg-6 col-6" style="width: 60%;">
+                <input type="text" formControlName="Email" class="form-control" placeholder="Enter the Email">
+                <div class="text-danger">
+                    <small *ngIf="registerForm.get('Email').invalid && registerForm.get('Email').touched">Email is Required</small>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-6 col-6" style="margin-top: 10px; width: 40%;">
+                <span>Phone <span class="star">*</span></span>
+            </div>
+            <div class="col-lg-6 col-6" style="width: 60%;">
+                <div class="phone">
+                    <div style="width: 120px; margin-right: 10px;">
+                        <input type="text" formControlName="phoneNumber" class="form-control" placeholder="Enter the phone">
+                        <div class="text-danger">
+                            <small *ngIf="registerForm.get('phoneNumber').invalid && registerForm.get('phoneNumber').touched">PhoneNumber is Required</small>
+                        </div>
+                    </div>
+                    <span style="margin-right: 10px; margin-top: 7px;">Ext</span>
+                    <div style="width: 40%;">
+                        <input type="text" class="form-control" placeholder="Enter the Ext">  
+                    </div>
+                </div>
+            </div>
+         </div>
+         <div class="row">
+            <div class="col-lg-6 col-6" style="margin-top: 10px; width: 40%;">
+                <span>NIE Item code you are interested in buying</span>
+            </div>
+            <div class="col-lg-6 col-6" style="width: 60%;">
+                <input type="text" class="form-control" placeholder="Enter the Item Code">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-6 col-6" style="margin-top: 10px; width: 40%;">
+                <span>Message</span>
+            </div>
+            <div class="col-lg-6 col-6" style="width: 60%; height: 100px;">
+                <input type="text" class="form-control message-box" placeholder="Enter Message" [maxLength]="1024" style="height: 150px;">
+                <label class="message">{{input.length || 0}}/1024</label>
+            </div>
+        </div><br><br>
+        <div>
+            <div>
+                <form [formGroup]="aFormGroup" class="captcha">
+                    <ngx-recaptcha2 #captchaElem
+                      [siteKey]="siteKey"
+                      formControlName="recaptcha">
+                    </ngx-recaptcha2>
+                  </form>
+            </div>
+        </div>
+        </div>
+        <div class="mat-button end-button">
+            <button mat-raised-button color="primary" class="mat-raised-button">Cancel</button>
+            <button mat-raised-button color="primary" class="mat-raised-button"  >Sumbit</button>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,99 @@
+.menu-bar{
+    margin-top: 50px;
+}
+.nav-container{
+    display: grid;
+    grid-template-columns: 90% 10%;
+    width: 100%;
+}
+.mat-toolbar-single-row{
+    width: 15%;
+    padding-left: 20px;
+    height: 37px;
+    font-size: 14px;
+}
+.example-icon{
+    background-color: #2196f3;
+    border-radius: 0px;
+    height: 35px;
+    position: relative;
+    top: 1px;
+    color: #fff;
+}
+.head{
+    position: relative;
+    right: 25px;
+    background-color: #2196f3;
+    padding: 10px 40px 10px 10px;
+    color: #fff;
+}
+mat-drawer-content{
+    height: 100vh;
+    width: 10px;
+}
+.mat-icon-button{
+    position: relative;
+    left: -18px;
+}
+.menu{
+    color: #2196f3;
+    font-weight: 800;
+    font-size: 13px;
+    position: relative;
+    bottom: 10px;
+}
+.gray{
+    color: grey;
+    max-height: 19px;
+    margin-left: 10px;
+    font-size: 11px;
+}
+
+.menu-first,.menu-second,.menu-third,.menu-fourth,.menu-fivth {
+   position: relative;
+   bottom: 38px;
+}
+.menu-border{
+    width: 203px;
+    border-right: 1px solid #2196f3;
+    border-bottom: 1px solid hsl(184, 100%, 50%);   
+}
+.menu a{
+    text-decoration: none;
+    color: #2196f3;;
+}
+.gray a{
+    color: gray;
+    text-decoration: none;
+}
+.gray a:hover{
+    color: black;
+}
+.menu a:hover{
+    color: rgb(5, 5, 141);
+}
+.menu-block{
+    display: flex;
+    flex-basis: auto;
+}
+.menu-six{
+    color: #2196f3;
+    font-weight: 800;
+}
+.block-side{
+    margin-top: 60px;
+    margin-left: 0px;
+}
+.block-gray{
+    font-size: 20px;
+    font-weight: 500;
+    color: grey;
+}
+.block-blue{
+    font-size: 30px;
+    font-weight: 500;
+    color: #2196f3;
+    margin-top: 50px;
+    line-height: 30px;
+}
+
