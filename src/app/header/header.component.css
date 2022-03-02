@@ -1,36 +1,31 @@
-
-.page-header{
-    margin: 1px;
+.header{
     background-color: black;
-    color: white;
-    height: 150px;
-    
+    margin-left: 60px;
 }
-   h5{
-       display:flex;
-       position: relative;
-       left: 10px;
-      letter-spacing: 25px;
-      font-size: x-large;
-   } 
-   p{
-       position: relative;
-       bottom: 5px;
-       left: 235px;
-   }
-img{
-    position: relative;
-    right: 0px;
+.header h3{
+    letter-spacing: 24px;
+   font-weight: bold;
+   color: white;
+   margin-left: 20px;
 }
-.nav-link{
-/* align-items: flex-end; */
-   display: flex;
-   /* justify-content: flex-end; */
-    /* padding: 3.5rem 1rem;  */
+.para{
+    margin-left: 230px;
     color: white;
-position: relative;
-left: 40px;
-bottom:3px;
-font-size: smaller;
+}
+.anchor{
+    margin-left: 170px;
 
+}
+.anchor a{
+    color: white;
+    display:inline-block;
+   
+   
+}
+
+.log{
+    margin-left: 1041px;
+    cursor: pointer;
+    background-color: aqua;
+    
 }
