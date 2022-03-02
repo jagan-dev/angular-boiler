@@ -34,8 +34,8 @@ export class FormLocateComponent implements OnInit {
     });
   }
   submitData(){  
-     console.log(this.registerForm.value);
-  }
+      console.log(this.registerForm.value);
+    }
   get firstname(){
     return this.registerForm.get('FirstName');
   }
