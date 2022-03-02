@@ -1,0 +1,28 @@
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
+.bold{
+    text-align: right;
+    color: #071EFC;
+    font-weight: 900;
+}
+.h2{
+    font-size: 20px;
+}
+.twitterIcon[_ngcontent-ufk-c370] {
+    color: #00acee;
+    height: 40px;
+    width: 40px;
+    margin-left: 10px;
+}
+.linkedInIcon[_ngcontent-ufk-c370] {
+    height: 40px;
+    width: 40px;
+    color: #0e76a8;
+    margin-left: 10px;
+}
+.fbIcon{
+    color: #3b5998;
+    height: 40px;
+    width: 40px;
+}
+
