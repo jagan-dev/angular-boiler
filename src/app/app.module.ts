@@ -11,6 +11,7 @@ import { HomeComponent } from './home/home.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { DialogComponent } from './dialog/dialog.component';
 import {MatDialogModule} from '@angular/material/dialog';
+import { MatIconModule } from '@angular/material/icon';
 
 
 @NgModule({
@@ -27,7 +28,8 @@ import {MatDialogModule} from '@angular/material/dialog';
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    MatDialogModule
+    MatDialogModule,
+    MatIconModule
   ],
   schemas: [ CUSTOM_ELEMENTS_SCHEMA ],
   providers: [],
