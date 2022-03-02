@@ -1,9 +1,9 @@
-#footer-main {
-  position:absolute;
-  bottom:0;
+/* #footer-main {
+  background-color: red;
+  margin-top: 200px;
   width:100%;
-  height:60px;   /* Height of the footer */
-}
+  height: 60px;
+ } 
 
 #header-main {
   background: yellow;
@@ -20,4 +20,4 @@
 .second-line{
    flex-basis: 50%;
    
-}
+} */

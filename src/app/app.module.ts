@@ -21,6 +21,7 @@ import {MatExpansionModule} from '@angular/material/expansion';
 import {MatGridListModule} from '@angular/material/grid-list';
 import { NavComponent } from './guest/nav/nav.component';
 import { ContentComponent } from './guest/content/content.component';
+import { RouterModule } from '@angular/router';
 
 
 @NgModule({
@@ -41,6 +42,7 @@ import { ContentComponent } from './guest/content/content.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
+    RouterModule,
     BrowserAnimationsModule,
     MatDialogModule,
     MatToolbarModule,
