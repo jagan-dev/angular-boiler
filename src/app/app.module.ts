@@ -16,20 +16,13 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { DialogComponent } from './dialog/dialog.component';
 import {MatDialogModule} from '@angular/material/dialog';
 import { GuestComponent } from './guest/guest.component';
-import { BuyingSellingComponent } from './guest/buying-selling/buying-selling.component';
+import { BuyingSellingComponent } from './buying-selling/buying-selling.component';
 import {MatExpansionModule} from '@angular/material/expansion';
 import {MatGridListModule} from '@angular/material/grid-list';
 import { NavComponent } from './guest/nav/nav.component';
 import { ContentComponent } from './guest/content/content.component';
-import { RouterModule, Routes } from '@angular/router';
-import { HomeComponent } from './home/home.component';
+import { RouterModule } from '@angular/router';
 
-const routes: Routes = [
-  {path:'home',component:HomeComponent},
-  {path:'nav-bar',component:NavBarComponent},
-  {path:'guest',component:GuestComponent},
-  {path:'buy',component:BuyingSellingComponent}
- ];
 
 @NgModule({
   declarations:[
@@ -42,7 +35,9 @@ const routes: Routes = [
       GuestComponent,
       BuyingSellingComponent,
       NavComponent,
-      ContentComponent, 
+      ContentComponent,
+    
+      
    ],
   imports: [
     BrowserModule,
@@ -57,8 +52,7 @@ const routes: Routes = [
     MatSelectModule,
     MatSidenavModule,
     MatExpansionModule,
-    MatGridListModule,
-    RouterModule.forRoot(routes)
+    MatGridListModule
   ],
   schemas: [ CUSTOM_ELEMENTS_SCHEMA ],
   providers: [],

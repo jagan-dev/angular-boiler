@@ -1,19 +1,15 @@
 .buying-selling{
-    display: inline;
+    display: inline-block;
     width: 100%;
    height: 100vw;
 }
 .list ul li{
     color: rgb(68, 163, 163);
-   
 }
-.last{ 
-    position: relative;
-    top:40px;
-   left: 20px;
+.last{
+    margin-left: 20px;
 }
 .last ul li{
     list-style-type: none;
-    position: relative;
-    left: -18px;
+    margin-left: -18px;
 }

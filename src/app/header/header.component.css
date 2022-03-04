@@ -1,10 +1,10 @@
 .header{
     background-color: black;
-    width: 100%;
+    margin-left: 60px;
 }
 .header h3{
     letter-spacing: 24px;
-   font-size: 30px;
+   font-weight: bold;
    color: white;
    margin-left: 20px;
 }
@@ -18,16 +18,14 @@
 }
 .anchor a{
     color: white;
-    display:inline-block; 
-    padding-right: 30px;
-
+    display:inline-block;
+   
+   
 }
+
 .log{
-    position: relative;
-    left: 748px;
+    margin-left: 1041px;
     cursor: pointer;
     background-color: aqua;
-    font-size: 20px;
-    padding: 5px;
-   
+    
 }
