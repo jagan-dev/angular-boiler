@@ -1,5 +1,5 @@
 .header{
-    background-image: url(img/new_header1.1df68a0348bf68da6a05.png);
+    background-image: url(new_header1.1df68a0348bf68da6a05.png);
     filter: contrast(100%);
     background-position: center;
     background-repeat: no-repeat;
@@ -15,6 +15,7 @@ h1{
     margin-left: 20px;
     font-weight: 900;
     font-size: 38px;
+
 }
 .para{
     color: #fff;

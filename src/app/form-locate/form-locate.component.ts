@@ -27,7 +27,7 @@ export class FormLocateComponent implements OnInit {
       "State":new FormControl(this.input, [Validators.required]),
       "ZIPcode":new FormControl(null,[Validators. required, Validators. pattern("^((\\+91-?) |0)?[0-9]{10}$")]),
       "phoneNumber":new FormControl(null,[Validators. required, Validators. pattern("^((\\+91-?) |0)?[0-9]{10}$")]),
-      "Email":new FormControl(null,[Validators.required,Validators.email]),
+      "Email":new FormControl(null,[Validators.required,Validators.email])
 
     });
     this.aFormGroup = this.formBuilder.group({
