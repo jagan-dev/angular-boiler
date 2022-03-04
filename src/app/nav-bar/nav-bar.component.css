@@ -22,9 +22,13 @@ input::-webkit-input-placeholder {
     margin-left: 90px;
 }
 .forgot{
+    position: relative;
+    left: 159px;
+}
+.forgot a{
     color: rgb(13, 107, 230);
     text-align: center;
-    margin-right: 8px;
+    text-decoration: none;
 }
 .btn-primary{
     border: none;
@@ -46,7 +50,7 @@ h3{
 .btn-1{
     position: relative;
     left: 325px;
-    bottom: 15px;
+    top: 14px;
     border-radius: 0;
     background-color: rgba(6, 93, 255, 0.945);
 }

@@ -1,42 +1,25 @@
- /* .span1{
- .span{
-     margin-right: 300px;
-    
- }
- .container{
-     height: 120px;
-     position: relative;
-     margin-top: 300px;
-     
- }
- 
- .span1{
-padding: 600px;
-}
-.bi-at{
-   position: relative;
-   right: 225px;
-   bottom: 55px;
-}
-.align a{
-    margin-right: 30px;
-    color: rgb(31, 108, 223);
+.span{
+    position: relative;
+   right: 485px;
 }
 .text a{
-    color: aliceblue;
     position: relative;
-    bottom: 120px;
-    right: 300px;
-    font-size: 130%;
-    display: block;
-
+   right: 425px;
+   bottom: 50px;
+   color: white;
+   text-decoration: none;
 }
 .mail a{
-    color: aliceblue;
     position: relative;
-    bottom: 180px;
-    left: 230px;
-    font-size: 22px;
-    display: block;
+   left: 185px;
+   bottom: 70px;
+   color: white;
+   text-decoration: none;
 }
- */
+.align a{
+    padding-left: 40px;
+}
+.align{
+    position: relative;
+    left: 140px;
+}
