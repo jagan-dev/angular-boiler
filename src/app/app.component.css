@@ -1,23 +1,8 @@
-/* #footer-main {
-  background-color: red;
-  margin-top: 200px;
-  width:100%;
-  height: 60px;
- } 
-
-#header-main {
-  background: yellow;
-  height:50px;
+.header{
+    position: relative;
+    bottom: 172px!important;
+    z-index: 1;
 }
-
-.app-guest{
-  background-color: red;
+.route{
+    margin-top: 172px!important;
 }
-.first-line{
-  display: flex;
-  text-align: center;
-}
-.second-line{
-   flex-basis: 50%;
-   
-} */

@@ -1,24 +1,88 @@
 @import '~bootstrap/dist/css/bootstrap.min.css';
+.home{
+    display: flex;
+    margin-left: 25px;
 
-.bold{
-    text-align: right;
-    color: #071EFC;
-    font-weight: 900;
 }
-.h2{
-    font-size: 20px;
+h1{
+    color: hsl(199, 91%, 46%);
+    font-weight: 900;
+    font-size: 75px;
+    margin-bottom: 194px;
+}
+.home-how{
+    position: relative;
+    bottom: 41px;
+}
+.home-start{
+    max-width: 230px;
+    text-align: end;
+    margin-right: 25px;
+    height: auto;
+}
+.home-center{
+   max-width: 650px;
+}
+.home-center p{
+    font-size: 16px;
+    line-height: 25px;
+}
+.home-end-firstline{
+    position: relative;
+    max-width: 1000px;
+}
+.home-end p{
+    font-size: 15px;
+    font-weight: 300;
+}
+.home-end{
+    max-width: 350px;
+    margin-top: 10px;
+    margin-left: 10px;
+    border-left: 1px solid rgb(196, 196, 196);
+    padding-left: 20px;
+}
+.home-end-rightline{
+    border-right: 5px solid rgb(196, 196, 196);
+    border-radius: 2px;
+    line-height: 20px;
+}
+h2{
+    font-size: 35px;
+    font-weight: 700;
+}
+h4{
+    font-size: 24px;
+    font-weight: 500;
+}
+h5{
+    color: #66bf87!important;
+    font-size: 16px;
+}
+.home-end a{
+    text-decoration: none;
+    font-weight: 600;
+}
+.home-end a:hover{
+    color: #0e76a8;
+    text-decoration: underline;
+}
+.home-end-firstline{
+    position: relative;
+    top: 10px;
+
 }
 .twitterIcon[_ngcontent-ufk-c370] {
     color: #00acee;
     height: 40px;
     width: 40px;
-    margin-left: 10px;
+    margin-left: 20px;
 }
 .linkedInIcon[_ngcontent-ufk-c370] {
     height: 40px;
     width: 40px;
     color: #0e76a8;
-    margin-left: 10px;
+    margin-left: 20px;
 }
 .fbIcon{
     color: #3b5998;

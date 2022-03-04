@@ -10,11 +10,11 @@ import { NavBarComponent } from './nav-bar/nav-bar.component';
 
 
 const routes: Routes = [
+  { path : "", redirectTo: 'home',pathMatch:"full"},
   {path:'home',component:HomeComponent},
   {path:'nav-bar',component:NavBarComponent},
   {path:'guest',component:GuestComponent},
   {path:'buy',component:BuyingSellingComponent},
-  { path : "", redirectTo: 'menu-bar-contend',pathMatch:"full"},
   { path : 'menu-bar-contend', component: MenuBarContendComponent},
   { path : 'form-locate', component: FormLocateComponent}
 ];

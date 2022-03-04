@@ -1,31 +1,67 @@
 .header{
-    background-color: black;
-    margin-left: 60px;
+    background-image: url(img/new_header1.1df68a0348bf68da6a05.png);
+    filter: contrast(100%);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 172px;
+    width: 1350px;
+    position: fixed;
 }
-.header h3{
-    letter-spacing: 24px;
-   font-weight: bold;
-   color: white;
-   margin-left: 20px;
+h1{
+    color: #fff;
+    padding-top: 15px;
+    letter-spacing: 15px;
+    margin-left: 20px;
+    font-weight: 900;
+    font-size: 38px;
 }
 .para{
-    margin-left: 230px;
-    color: white;
+    color: #fff;
+    font-size: 18px;
+    max-width: 45%;
+    position: relative;
+    left: 350px;
+    bottom: 70px;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 30px;
 }
-.anchor{
-    margin-left: 170px;
-
+svg{
+    margin-left: 20px;
 }
-.anchor a{
-    color: white;
-    display:inline-block;
-   
-   
+.row{
+    display: flex;
+    display: inline;
 }
-
-.log{
-    margin-left: 1041px;
-    cursor: pointer;
-    background-color: aqua;
-    
+nav ul{
+    list-style-type: none;
+}
+nav ul li{
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 30px;
+    position: relative;
+    bottom: 85px;
+    left: 80px;
+    font-size: 19px;
+}
+a{
+    text-decoration: none;
+    color: rgba(245, 245, 245, 0.796);
+    font-weight: 400;
+}
+a:hover{
+    color: #fff;
+    font-weight: 500;
+}
+.btn{
+    position: absolute;
+    left: 85%;
+    top: 77%;
+    width: 170px;
+    border-radius: 0px;
+    text-align: start;
+    background-color: hsl(199, 91%, 46%);
+    font-size: 16px;
 }

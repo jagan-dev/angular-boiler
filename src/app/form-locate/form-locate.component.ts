@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { flush } from '@angular/core/testing';
 import { FormControl, FormGroup, Validators,FormBuilder } from '@angular/forms';
 
 @Component({
@@ -34,7 +35,11 @@ export class FormLocateComponent implements OnInit {
     });
   }
   submitData(){  
-      console.log(this.registerForm.value);
+      if (this.registerForm.valid && this.aFormGroup.valid) {
+         return console.log(this.registerForm.value);
+      } else {
+        return alert("Data is wrong")
+      }
     }
   get firstname(){
     return this.registerForm.get('FirstName');   
