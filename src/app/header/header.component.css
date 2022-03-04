@@ -16,6 +16,14 @@ h1{
     font-weight: 900;
     font-size: 38px;
 
+    background-color: black;
+    width: 100%;
+}
+.header h3{
+    letter-spacing: 24px;
+   font-size: 30px;
+   color: white;
+   margin-left: 20px;
 }
 .para{
     color: #fff;
@@ -65,4 +73,19 @@ a:hover{
     text-align: start;
     background-color: hsl(199, 91%, 46%);
     font-size: 16px;
+}
+.anchor a{
+    color: white;
+    display:inline-block;
+    padding-right: 30px;
+
+}
+.log{
+    position: relative;
+    left: 748px;
+    cursor: pointer;
+    background-color: aqua;
+    font-size: 20px;
+    padding: 5px;
+
 }

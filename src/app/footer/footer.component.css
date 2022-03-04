@@ -19,7 +19,7 @@
     width: 28px;
     height: 28px;
     size: 15px;
-    margin-right: 20px; 
+    margin-right: 20px;
 }
 .nav{
     justify-content: center;
@@ -38,3 +38,28 @@ a{
 }
 
 
+.span{
+    position: relative;
+   right: 485px;
+}
+.text a{
+    position: relative;
+   right: 425px;
+   bottom: 50px;
+   color: white;
+   text-decoration: none;
+}
+.mail a{
+    position: relative;
+   left: 185px;
+   bottom: 70px;
+   color: white;
+   text-decoration: none;
+}
+.align a{
+    padding-left: 40px;
+}
+.align{
+    position: relative;
+    left: 140px;
+}

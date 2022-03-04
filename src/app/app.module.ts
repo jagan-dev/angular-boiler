@@ -19,17 +19,23 @@ import {MatDialogModule} from '@angular/material/dialog';
 import { FormLocateComponent } from './form-locate/form-locate.component';
 import { FormModuleModule } from './form-locate/form-module/form-module.module'
 import { FormsModule,ReactiveFormsModule } from '@angular/forms';
-import { NgxCaptchaModule } from 'ngx-captcha';
+// import { NgxCaptchaModule } from 'ngx-captcha';
 import { MenuBarContendComponent } from './menu-bar/menu-bar-contend/menu-bar-contend.component';
 import { GuestComponent } from './guest/guest.component';
-import { BuyingSellingComponent } from './buying-selling/buying-selling.component';
+import { BuyingSellingComponent } from './guest/buying-selling/buying-selling.component';
 import {MatExpansionModule} from '@angular/material/expansion';
 import {MatGridListModule} from '@angular/material/grid-list';
 import { NavComponent } from './guest/nav/nav.component';
 import { ContentComponent } from './guest/content/content.component';
-import { RouterModule } from '@angular/router';
+import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './home/home.component';
 
+const routes: Routes = [
+  {path:'home',component:HomeComponent},
+  {path:'nav-bar',component:NavBarComponent},
+  {path:'guest',component:GuestComponent},
+  {path:'buy',component:BuyingSellingComponent}
+ ];
 
 @NgModule({
   declarations: [
@@ -45,11 +51,11 @@ import { HomeComponent } from './home/home.component';
       GuestComponent,
       BuyingSellingComponent,
       NavComponent,
-      ContentComponent],
-
+      ContentComponent
+   ],
   imports: [
     BrowserModule,
-    NgxCaptchaModule,
+    // NgxCaptchaModule,
     AppRoutingModule,
     RouterModule,
     BrowserAnimationsModule,
@@ -65,7 +71,8 @@ import { HomeComponent } from './home/home.component';
     MatSelectModule,
     MatSidenavModule,
     MatExpansionModule,
-    MatGridListModule
+    MatGridListModule,
+    RouterModule.forRoot(routes)
   ],
   schemas: [ CUSTOM_ELEMENTS_SCHEMA ],
   providers: [],
